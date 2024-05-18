@@ -15,7 +15,7 @@
     },
     "heroxvote": {
         "path": "heroxvote/index.json",
-        "avatar": "<i class=\"flex i-ic-baseline-move-to-inbox text-size-1.25rem\"></i>",
+        "avatar": "<i class=\"flex i-streamline:politics-vote-2-solid text-size-1.25rem\"></i>",
         "displayonbar": true,
         "title": "HeroxVote",
         "pages": {
@@ -36,14 +36,14 @@
     },
     "cubegenerator": {
         "path": "cubegenerator/index.json",
-        "avatar": "<i class=\"flex i-ic-baseline-move-to-inbox text-size-1.25rem\"></i>",
+        "avatar": "<i class=\"flex i-game-icons:cubes text-size-1.25rem\"></i>",
         "displayonbar": true,
         "title": "CubeGenerator",
         "pages": {}
     },
     "tombs": {
         "path": "tombs/index.json",
-        "avatar": "<i class=\"flex i-ic-baseline-move-to-inbox text-size-1.25rem\"></i>",
+        "avatar": "<i class=\"flex i-game-icons:tombstone text-size-1.25rem\"></i>",
         "displayonbar": true,
         "title": "Tombs",
         "pages": {}
