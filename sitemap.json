@@ -1,0 +1,52 @@
+{
+    "default": {
+        "path": "default.json",
+        "title": "Welcome",
+        "avatar": "<i class=\"flex i-ic-baseline-move-to-inbox text-size-1.25rem\"></i>",
+        "displayonbar": false,
+        "pages": {}
+    },
+    "notfound": {
+        "path": "notfound.json",
+        "title": "Not Found",
+        "avatar": "",
+        "displayonbar": false,
+        "pages": {}
+    },
+    "heroxvote": {
+        "path": "heroxvote/index.json",
+        "avatar": "<i class=\"flex i-ic-baseline-move-to-inbox text-size-1.25rem\"></i>",
+        "displayonbar": true,
+        "title": "HeroxVote",
+        "pages": {
+			"general": {
+				"path": "heroxvote/general.json",
+				"displayonbar": true,
+				"title": "General",
+				"pages": {}
+                
+            },
+			"nonuvotifier": {
+				"path": "heroxvote/nonuvotifier.json",
+				"displayonbar": true,
+				"title": "NoNuVotifier",
+				"pages": {}
+			}
+		}
+    },
+    "cubegenerator": {
+        "path": "cubegenerator/index.json",
+        "avatar": "<i class=\"flex i-ic-baseline-move-to-inbox text-size-1.25rem\"></i>",
+        "displayonbar": true,
+        "title": "CubeGenerator",
+        "pages": {}
+    },
+    "tombs": {
+        "path": "tombs/index.json",
+        "avatar": "<i class=\"flex i-ic-baseline-move-to-inbox text-size-1.25rem\"></i>",
+        "displayonbar": true,
+        "title": "Tombs",
+        "pages": {}
+    }
+
+}
