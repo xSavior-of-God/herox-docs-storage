@@ -39,7 +39,14 @@
         "avatar": "<i class=\"flex i-game-icons:cubes text-size-1.25rem\"></i>",
         "displayonbar": true,
         "title": "CubeGenerator",
-        "pages": {}
+      "pages": {
+        "config": {
+          "path": "cubegenerator/config.json",
+          "displayonbar": true,
+          "title": "Config",
+          "pages": {}
+        }
+      }
     },
     "tombs": {
         "path": "tombs/index.json",
