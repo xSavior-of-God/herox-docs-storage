@@ -41,10 +41,17 @@
         "title": "CubeGenerator",
       "pages": {
         "config": {
-          "path": "cubegenerator/config.json",
+          "path": "cubegenerator/config/config.json",
           "displayonbar": true,
           "title": "Config",
-          "pages": {}
+          "pages": {
+            "database": {
+              "path": "cubegenerator/config/database.json",
+              "displayonbar": true,
+              "title": "CubeGenerator Database",
+              "pages": {}
+            }
+          }
         }
       }
     },
