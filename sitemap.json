@@ -47,8 +47,92 @@
           "pages": {
             "database": {
               "path": "cubegenerator/config/database.json",
-              "displayonbar": true,
-              "title": "CubeGenerator Database",
+              "displayonbar": false,
+              "title": "Database",
+              "pages": {}
+            },
+            "worlds": {
+              "path": "cubegenerator/config/worlds.json",
+              "displayonbar": false,
+              "title": "Worlds",
+              "pages": {}
+            },
+            "interface": {
+              "path": "cubegenerator/config/interface.json",
+              "displayonbar": false,
+              "title": "Interface",
+              "pages": {}
+            },
+            "animations": {
+              "path": "cubegenerator/config/animations.json",
+              "displayonbar": false,
+              "title": "Animations",
+              "pages": {}
+            },
+            "owner": {
+              "path": "cubegenerator/config/owner.json",
+              "displayonbar": false,
+              "title": "Owner",
+              "pages": {}
+            },
+            "maxnumbergenerators": {
+              "path": "cubegenerator/config/maxnumbergenerators.json",
+              "displayonbar": false,
+              "title": "Limited Number of Generators",
+              "pages": {}
+            },
+            "experience": {
+              "path": "cubegenerator/config/experience.json",
+              "displayonbar": false,
+              "title": "Experience",
+              "pages": {}
+            },
+            "itemdamage": {
+              "path": "cubegenerator/config/itemdamage.json",
+              "displayonbar": false,
+              "title": "Item Damage",
+              "pages": {}
+            },
+            "chestautofill": {
+              "path": "cubegenerator/config/chestautofill.json",
+              "displayonbar": false,
+              "title": "Chest Autofill",
+              "pages": {}
+            },
+            "hooks": {
+              "path": "cubegenerator/config/hooks.json",
+              "displayonbar": false,
+              "title": "Hooks",
+              "pages": {}
+            },
+            "prices": {
+              "path": "cubegenerator/config/prices.json",
+              "displayonbar": false,
+              "title": "Prices",
+              "pages": {}
+            },
+            "generators": {
+              "path": "cubegenerator/config/generators.json",
+              "displayonbar": false,
+              "title": "Generators",
+              "pages": {}
+            },
+            "interfaces": {
+              "path": "cubegenerator/config/interfaces.json",
+              "displayonbar": false,
+              "title": "Generators",
+              "pages": {}
+            },
+            "messages": {
+              "path": "cubegenerator/config/messages.json",
+              "displayonbar": false,
+              "title": "Messages",
+              "pages": {}
+            },
+            "debug": {
+              "path": "cubegenerator/config/debug.json",
+              "displayonbar": false,
+              "title": "Debug",
               "pages": {}
             }
           }
