@@ -1,150 +1,382 @@
 {
-    "default": {
-        "path": "default.json",
-        "title": "Welcome",
-        "avatar": "<i class=\"flex i-ic-baseline-move-to-inbox text-size-1.25rem\"></i>",
-        "displayonbar": false,
-        "pages": {}
-    },
-    "notfound": {
-        "path": "notfound.json",
-        "title": "Not Found",
-        "avatar": "",
-        "displayonbar": false,
-        "pages": {}
-    },
-    "heroxvote": {
-        "path": "heroxvote/index.json",
-        "avatar": "<i class=\"flex i-streamline:politics-vote-2-solid text-size-1.25rem\"></i>",
+  "default": {
+    "path": "default.json",
+    "title": "Welcome",
+    "avatar": "<i class=\"flex i-ic-baseline-move-to-inbox text-size-1.25rem\"></i>",
+    "displayonbar": false,
+    "pages": {}
+  },
+  "notfound": {
+    "path": "notfound.json",
+    "title": "Not Found",
+    "avatar": "",
+    "displayonbar": false,
+    "pages": {}
+  },
+  "heroxvote": {
+    "path": "heroxvote/index.json",
+    "avatar": "<i class=\"flex i-streamline:politics-vote-2-solid text-size-1.25rem\"></i>",
+    "displayonbar": true,
+    "title": "HeroxVote",
+    "pages": {
+      "general": {
+        "path": "heroxvote/general.json",
         "displayonbar": true,
-        "title": "HeroxVote",
+        "title": "General",
+        "pages": {}
+      },
+      "nonuvotifier": {
+        "path": "heroxvote/nonuvotifier.json",
+        "displayonbar": true,
+        "title": "NoNuVotifier",
+        "pages": {}
+      }
+    }
+  },
+  "cubegenerator": {
+    "path": "cubegenerator/index.json",
+    "avatar": "<i class=\"flex i-game-icons:cubes text-size-1.25rem\"></i>",
+    "displayonbar": true,
+    "title": "CubeGenerator",
+    "pages": {
+      "config": {
+        "path": "cubegenerator/config/config.json",
+        "displayonbar": true,
+        "title": "Config",
         "pages": {
-			"general": {
-				"path": "heroxvote/general.json",
-				"displayonbar": true,
-				"title": "General",
-				"pages": {}
-                
-            },
-			"nonuvotifier": {
-				"path": "heroxvote/nonuvotifier.json",
-				"displayonbar": true,
-				"title": "NoNuVotifier",
-				"pages": {}
-			}
-		}
-    },
-    "cubegenerator": {
-        "path": "cubegenerator/index.json",
-        "avatar": "<i class=\"flex i-game-icons:cubes text-size-1.25rem\"></i>",
+          "database": {
+            "path": "cubegenerator/config/database.json",
+            "displayonbar": false,
+            "title": "Database",
+            "pages": {}
+          },
+          "worlds": {
+            "path": "cubegenerator/config/worlds.json",
+            "displayonbar": false,
+            "title": "Worlds",
+            "pages": {}
+          },
+          "interface": {
+            "path": "cubegenerator/config/interface.json",
+            "displayonbar": false,
+            "title": "Interface",
+            "pages": {}
+          },
+          "animations": {
+            "path": "cubegenerator/config/animations.json",
+            "displayonbar": false,
+            "title": "Animations",
+            "pages": {}
+          },
+          "owner": {
+            "path": "cubegenerator/config/owner.json",
+            "displayonbar": false,
+            "title": "Owner",
+            "pages": {}
+          },
+          "maxnumbergenerators": {
+            "path": "cubegenerator/config/maxnumbergenerators.json",
+            "displayonbar": false,
+            "title": "Limited Number of Generators",
+            "pages": {}
+          },
+          "experience": {
+            "path": "cubegenerator/config/experience.json",
+            "displayonbar": false,
+            "title": "Experience",
+            "pages": {}
+          },
+          "itemdamage": {
+            "path": "cubegenerator/config/itemdamage.json",
+            "displayonbar": false,
+            "title": "Item Damage",
+            "pages": {}
+          },
+          "chestautofill": {
+            "path": "cubegenerator/config/chestautofill.json",
+            "displayonbar": false,
+            "title": "Chest Autofill",
+            "pages": {}
+          },
+          "hooks": {
+            "path": "cubegenerator/config/hooks.json",
+            "displayonbar": false,
+            "title": "Hooks",
+            "pages": {}
+          },
+          "prices": {
+            "path": "cubegenerator/config/prices.json",
+            "displayonbar": false,
+            "title": "Prices",
+            "pages": {}
+          },
+          "generators": {
+            "path": "cubegenerator/config/generators.json",
+            "displayonbar": false,
+            "title": "Generators",
+            "pages": {}
+          },
+          "interfaces": {
+            "path": "cubegenerator/config/interfaces.json",
+            "displayonbar": false,
+            "title": "Generators",
+            "pages": {}
+          },
+          "messages": {
+            "path": "cubegenerator/config/messages.json",
+            "displayonbar": false,
+            "title": "Messages",
+            "pages": {}
+          },
+          "debug": {
+            "path": "cubegenerator/config/debug.json",
+            "displayonbar": false,
+            "title": "Debug",
+            "pages": {}
+          }
+        }
+      },
+      "generators": {
+        "path": "cubegenerator/generators/generators.json",
         "displayonbar": true,
-        "title": "CubeGenerator",
-      "pages": {
-        "config": {
-          "path": "cubegenerator/config/config.json",
-          "displayonbar": true,
-          "title": "Config",
-          "pages": {
-            "database": {
-              "path": "cubegenerator/config/database.json",
-              "displayonbar": false,
-              "title": "Database",
-              "pages": {}
-            },
-            "worlds": {
-              "path": "cubegenerator/config/worlds.json",
-              "displayonbar": false,
-              "title": "Worlds",
-              "pages": {}
-            },
-            "interface": {
-              "path": "cubegenerator/config/interface.json",
-              "displayonbar": false,
-              "title": "Interface",
-              "pages": {}
-            },
-            "animations": {
-              "path": "cubegenerator/config/animations.json",
-              "displayonbar": false,
-              "title": "Animations",
-              "pages": {}
-            },
-            "owner": {
-              "path": "cubegenerator/config/owner.json",
-              "displayonbar": false,
-              "title": "Owner",
-              "pages": {}
-            },
-            "maxnumbergenerators": {
-              "path": "cubegenerator/config/maxnumbergenerators.json",
-              "displayonbar": false,
-              "title": "Limited Number of Generators",
-              "pages": {}
-            },
-            "experience": {
-              "path": "cubegenerator/config/experience.json",
-              "displayonbar": false,
-              "title": "Experience",
-              "pages": {}
-            },
-            "itemdamage": {
-              "path": "cubegenerator/config/itemdamage.json",
-              "displayonbar": false,
-              "title": "Item Damage",
-              "pages": {}
-            },
-            "chestautofill": {
-              "path": "cubegenerator/config/chestautofill.json",
-              "displayonbar": false,
-              "title": "Chest Autofill",
-              "pages": {}
-            },
-            "hooks": {
-              "path": "cubegenerator/config/hooks.json",
-              "displayonbar": false,
-              "title": "Hooks",
-              "pages": {}
-            },
-            "prices": {
-              "path": "cubegenerator/config/prices.json",
-              "displayonbar": false,
-              "title": "Prices",
-              "pages": {}
-            },
-            "generators": {
-              "path": "cubegenerator/config/generators.json",
-              "displayonbar": false,
-              "title": "Generators",
-              "pages": {}
-            },
-            "interfaces": {
-              "path": "cubegenerator/config/interfaces.json",
-              "displayonbar": false,
-              "title": "Generators",
-              "pages": {}
-            },
-            "messages": {
-              "path": "cubegenerator/config/messages.json",
-              "displayonbar": false,
-              "title": "Messages",
-              "pages": {}
-            },
-            "debug": {
-              "path": "cubegenerator/config/debug.json",
-              "displayonbar": false,
-              "title": "Debug",
-              "pages": {}
+        "title": "Generators",
+        "pages": {
+          "chest": {
+            "path": "cubegenerator/generators/chest.json",
+            "displayonbar": false,
+            "title": "Chest",
+            "pages": {}
+          },
+          "luckyblock": {
+            "path": "cubegenerator/generators/luckyblock.json",
+            "displayonbar": false,
+            "title": "Lucky Block",
+            "pages": {}
+          },
+          "levels": {
+            "path": "cubegenerator/generators/levels.json",
+            "displayonbar": false,
+            "title": "Levels",
+            "pages": {
+              "frameblock": {
+                "path": "cubegenerator/generators/levels/frameblock.json",
+                "displayonbar": false,
+                "title": "Levels",
+                "pages": {}
+              },
+              "respawndelay": {
+                "path": "cubegenerator/generators/levels/respawndelay.json",
+                "displayonbar": false,
+                "title": "Respawn Delay",
+                "pages": {}
+              },
+              "generatordeathpoint": {
+                "path": "cubegenerator/generators/levels/generatordeathpoint.json",
+                "displayonbar": false,
+                "title": "Generator Death Point",
+                "pages": {}
+              },
+              "autofill": {
+                "path": "cubegenerator/generators/levels/autofill.json",
+                "displayonbar": false,
+                "title": "Chest Autofill",
+                "pages": {}
+              },
+              "autosell": {
+                "path": "cubegenerator/generators/levels/autosell.json",
+                "displayonbar": false,
+                "title": "Autosell",
+                "pages": {}
+              },
+              "automining": {
+                "path": "cubegenerator/generators/levels/automining.json",
+                "displayonbar": false,
+                "title": "Automining",
+                "pages": {}
+              },
+              "disband": {
+                "path": "cubegenerator/generators/levels/disband.json",
+                "displayonbar": false,
+                "title": "Disband",
+                "pages": {}
+              },
+              "upgrade": {
+                "path": "cubegenerator/generators/levels/upgrade.json",
+                "displayonbar": false,
+                "title": "Upgrade",
+                "pages": {}
+              },
+              "respawnblock": {
+                "path": "cubegenerator/generators/levels/respawnblock.json",
+                "displayonbar": false,
+                "title": "Respawn Block",
+                "pages": {}
+              },
+              "materials": {
+                "path": "cubegenerator/generators/levels/materials.json",
+                "displayonbar": false,
+                "title": "Materials",
+                "pages": {}
+              }
+            }
+          }
+        }
+      },
+      "customupgrade": {
+        "path": "cubegenerator/customupgrade/customupgrade.json",
+        "displayonbar": true,
+        "title": "Custom Upgrade",
+        "pages": {
+          "singlefeature": {
+            "path": "cubegenerator/customupgrade/singlefeature.json",
+            "displayonbar": false,
+            "title": "Single Feature",
+            "pages": {
+              "frameblock": {
+                "path": "cubegenerator/customupgrade/singlefeature/frameblock.json",
+                "displayonbar": false,
+                "title": "Frame Block",
+                "pages": {}
+              },
+              "respawndelay": {
+                "path": "cubegenerator/customupgrade/singlefeature/respawndelay.json",
+                "displayonbar": false,
+                "title": "Respawn Delay",
+                "pages": {}
+              },
+              "respawnblocks": {
+                "path": "cubegenerator/customupgrade/singlefeature/respawnblocks.json",
+                "displayonbar": false,
+                "title": "Respawn Block",
+                "pages": {}
+              },
+              "generatordeathpoint": {
+                "path": "cubegenerator/customupgrade/singlefeature/generatordeathpoint.json",
+                "displayonbar": false,
+                "title": "Generator Death Point",
+                "pages": {}
+              },
+              "autofill": {
+                "path": "cubegenerator/customupgrade/singlefeature/autofill.json",
+                "displayonbar": false,
+                "title": "Chest Autofill",
+                "pages": {}
+              },
+              "autosell": {
+                "path": "cubegenerator/customupgrade/singlefeature/autosell.json",
+                "displayonbar": false,
+                "title": "Autosell",
+                "pages": {}
+              },
+              "automining": {
+                "path": "cubegenerator/customupgrade/singlefeature/automining.json",
+                "displayonbar": false,
+                "title": "Automining",
+                "pages": {}
+              },
+              "materials": {
+                "path": "cubegenerator/customupgrade/singlefeature/materials.json",
+                "displayonbar": false,
+                "title": "Materials",
+                "pages": {}
+              },
+              "slots": {
+                "path": "cubegenerator/customupgrade/singlefeature/slots.json",
+                "displayonbar": false,
+                "title": "Upgrade",
+                "pages": {}
+              },
+              "disband": {
+                "path": "cubegenerator/customupgrade/singlefeature/disband.json",
+                "displayonbar": false,
+                "title": "Disband",
+                "pages": {}
+              }
+            }
+          }
+        }
+      },
+      "mobgenerator": {
+        "path": "cubegenerator/mobgenerator/mobgenerator.json",
+        "displayonbar": true,
+        "title": "Mob Generator",
+        "pages": {
+          "levels": {
+            "path": "cubegenerator/mobgenerator/levels.json",
+            "displayonbar": false,
+            "title": "Levels",
+            "pages": {
+              "frameblock": {
+                "path": "cubegenerator/generators/levels/frameblock.json",
+                "displayonbar": false,
+                "title": "Levels",
+                "pages": {}
+              },
+              "respawndelay": {
+                "path": "cubegenerator/generators/levels/respawndelay.json",
+                "displayonbar": false,
+                "title": "Respawn Delay",
+                "pages": {}
+              },
+              "generatordeathpoint": {
+                "path": "cubegenerator/generators/levels/generatordeathpoint.json",
+                "displayonbar": false,
+                "title": "Generator Death Point",
+                "pages": {}
+              },
+              "autofill": {
+                "path": "cubegenerator/generators/levels/autofill.json",
+                "displayonbar": false,
+                "title": "Chest Autofill",
+                "pages": {}
+              },
+              "autosell": {
+                "path": "cubegenerator/generators/levels/autosell.json",
+                "displayonbar": false,
+                "title": "Autosell",
+                "pages": {}
+              },
+              "automining": {
+                "path": "cubegenerator/generators/levels/automining.json",
+                "displayonbar": false,
+                "title": "Automining",
+                "pages": {}
+              },
+              "disband": {
+                "path": "cubegenerator/generators/levels/disband.json",
+                "displayonbar": false,
+                "title": "Disband",
+                "pages": {}
+              },
+              "upgrade": {
+                "path": "cubegenerator/generators/levels/upgrade.json",
+                "displayonbar": false,
+                "title": "Upgrade",
+                "pages": {}
+              },
+              "respawnblock": {
+                "path": "cubegenerator/generators/levels/respawnblock.json",
+                "displayonbar": false,
+                "title": "Respawn Block",
+                "pages": {}
+              },
+              "materials": {
+                "path": "cubegenerator/generators/levels/materials.json",
+                "displayonbar": false,
+                "title": "Materials",
+                "pages": {}
+              }
             }
           }
         }
       }
-    },
-    "tombs": {
-        "path": "tombs/index.json",
-        "avatar": "<i class=\"flex i-game-icons:tombstone text-size-1.25rem\"></i>",
-        "displayonbar": true,
-        "title": "Tombs",
-        "pages": {}
     }
-
+  },
+  "tombs": {
+    "path": "tombs/index.json",
+    "avatar": "<i class=\"flex i-game-icons:tombstone text-size-1.25rem\"></i>",
+    "displayonbar": true,
+    "title": "Tombs",
+    "pages": {}
+  }
 }
