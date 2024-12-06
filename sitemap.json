@@ -306,64 +306,22 @@
             "displayonbar": false,
             "title": "Levels",
             "pages": {
-              "frameblock": {
-                "path": "cubegenerator/generators/levels/frameblock.json",
+              "autokilling": {
+                "path": "cubegenerator/mobgenerator/levels/autokilling.json",
                 "displayonbar": false,
-                "title": "Levels",
+                "title": "Autokilling",
                 "pages": {}
               },
-              "respawndelay": {
-                "path": "cubegenerator/generators/levels/respawndelay.json",
+              "respawnmob": {
+                "path": "cubegenerator/mobgenerator/levels/respawnmob.json",
                 "displayonbar": false,
-                "title": "Respawn Delay",
+                "title": "Respawn Mob",
                 "pages": {}
               },
-              "generatordeathpoint": {
-                "path": "cubegenerator/generators/levels/generatordeathpoint.json",
+              "mobs": {
+                "path": "cubegenerator/mobgenerator/levels/mobs.json",
                 "displayonbar": false,
-                "title": "Generator Death Point",
-                "pages": {}
-              },
-              "autofill": {
-                "path": "cubegenerator/generators/levels/autofill.json",
-                "displayonbar": false,
-                "title": "Chest Autofill",
-                "pages": {}
-              },
-              "autosell": {
-                "path": "cubegenerator/generators/levels/autosell.json",
-                "displayonbar": false,
-                "title": "Autosell",
-                "pages": {}
-              },
-              "automining": {
-                "path": "cubegenerator/generators/levels/automining.json",
-                "displayonbar": false,
-                "title": "Automining",
-                "pages": {}
-              },
-              "disband": {
-                "path": "cubegenerator/generators/levels/disband.json",
-                "displayonbar": false,
-                "title": "Disband",
-                "pages": {}
-              },
-              "upgrade": {
-                "path": "cubegenerator/generators/levels/upgrade.json",
-                "displayonbar": false,
-                "title": "Upgrade",
-                "pages": {}
-              },
-              "respawnblock": {
-                "path": "cubegenerator/generators/levels/respawnblock.json",
-                "displayonbar": false,
-                "title": "Respawn Block",
-                "pages": {}
-              },
-              "materials": {
-                "path": "cubegenerator/generators/levels/materials.json",
-                "displayonbar": false,
-                "title": "Materials",
+                "title": "Mobs",
                 "pages": {}
               }
             }
