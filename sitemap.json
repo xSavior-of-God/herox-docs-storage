@@ -327,6 +327,25 @@
             }
           }
         }
+      },
+      "api": {
+        "path": "cubegenerator/api/api.json",
+        "displayonbar": true,
+        "title": "Api",
+        "pages": {
+          "api": {
+            "path": "cubegenerator/api/api/api.json",
+            "displayonbar": false,
+            "title": "Api Class",
+            "pages": {}
+          },
+          "events": {
+            "path": "cubegenerator/api/api/events.json",
+            "displayonbar": false,
+            "title": "Events",
+            "pages": {}
+          }
+        }
       }
     }
   },
@@ -335,6 +354,26 @@
     "avatar": "<i class=\"flex i-game-icons:tombstone text-size-1.25rem\"></i>",
     "displayonbar": true,
     "title": "Tombs",
-    "pages": {}
+    "pages": {
+      "api": {
+        "path": "tombs/api/api.json",
+        "displayonbar": true,
+        "title": "Api",
+        "pages": {
+          "api": {
+            "path": "tombs/api/api/api.json",
+            "displayonbar": false,
+            "title": "Api Class",
+            "pages": {}
+          },
+          "events": {
+            "path": "tombs/api/api/events.json",
+            "displayonbar": false,
+            "title": "Events",
+            "pages": {}
+          }
+        }
+      }
+    }
   }
 }
