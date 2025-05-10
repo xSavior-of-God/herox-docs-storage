@@ -119,7 +119,7 @@
           "interfaces": {
             "path": "cubegenerator/config/interfaces.json",
             "displayonbar": false,
-            "title": "Generators",
+            "title": "Interfaces",
             "pages": {}
           },
           "messages": {
@@ -161,7 +161,7 @@
               "frameblock": {
                 "path": "cubegenerator/generators/levels/frameblock.json",
                 "displayonbar": false,
-                "title": "Levels",
+                "title": "Frame Block",
                 "pages": {}
               },
               "respawndelay": {
@@ -283,7 +283,7 @@
               "slots": {
                 "path": "cubegenerator/customupgrade/singlefeature/slots.json",
                 "displayonbar": false,
-                "title": "Upgrade",
+                "title": "Slots",
                 "pages": {}
               },
               "disband": {
