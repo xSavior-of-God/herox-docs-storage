@@ -355,6 +355,224 @@
     "displayonbar": true,
     "title": "Tombs",
     "pages": {
+      "config": {
+        "path": "tombs/config/config.json",
+        "displayonbar": true,
+        "title": "Config",
+        "pages": {
+          "deathstatus": {
+            "path": "tombs/config/deathstatus.json",
+            "displayonbar": false,
+            "title": "Death Status",
+            "pages": {}
+          },
+          "database": {
+            "path": "tombs/config/database.json",
+            "displayonbar": false,
+            "title": "Database",
+            "pages": {}
+          },
+          "worlds": {
+            "path": "tombs/config/worlds.json",
+            "displayonbar": false,
+            "title": "Worlds",
+            "pages": {}
+          },
+          "deathcause": {
+            "path": "tombs/config/deathcause.json",
+            "displayonbar": false,
+            "title": "Death Cause",
+            "pages": {}
+          },
+          "deathcommands": {
+            "path": "tombs/config/deathcommands.json",
+            "displayonbar": false,
+            "title": "Death Commands",
+            "pages": {}
+          },
+          "respawncommands": {
+            "path": "tombs/config/respawncommands.json",
+            "displayonbar": false,
+            "title": "Respawn Commands",
+            "pages": {}
+          },
+          "keepinventory": {
+            "path": "tombs/config/keepinventory.json",
+            "displayonbar": false,
+            "title": "Keep Inventory",
+            "pages": {}
+          },
+          "compass": {
+            "path": "tombs/config/compass.json",
+            "displayonbar": false,
+            "title": "Compass Tomb",
+            "pages": {}
+          },
+          "hologram": {
+            "path": "tombs/config/hologram.json",
+            "displayonbar": false,
+            "title": "Hologram",
+            "pages": {}
+          },
+          "breakgesture": {
+            "path": "tombs/config/breakgesture.json",
+            "displayonbar": false,
+            "title": "Break Gesture",
+            "pages": {}
+          },
+          "raidtomb": {
+            "path": "tombs/config/raidtomb.json",
+            "displayonbar": false,
+            "title": "Raid Tomb",
+            "pages": {}
+          },
+          "tombsdelete": {
+            "path": "tombs/config/tombsdelete.json",
+            "displayonbar": false,
+            "title": "Tombs Delete",
+            "pages": {}
+          },
+          "experience": {
+            "path": "tombs/config/experience.json",
+            "displayonbar": false,
+            "title": "Experience",
+            "pages": {}
+          },
+          "eventsprotection": {
+            "path": "tombs/config/eventsprotection.json",
+            "displayonbar": false,
+            "title": "Events Protection",
+            "pages": {}
+          },
+          "voidgesture": {
+            "path": "tombs/config/voidgesture.json",
+            "displayonbar": false,
+            "title": "Void Gesture",
+            "pages": {}
+          },
+          "servergesture": {
+            "path": "tombs/config/servergesture.json",
+            "displayonbar": false,
+            "title": "Server Gesture",
+            "pages": {}
+          },
+          "tomb": {
+            "path": "tombs/config/tomb.json",
+            "displayonbar": false,
+            "title": "Tomb Aspect",
+            "pages": {}
+          },
+          "teleport": {
+            "path": "tombs/config/teleport.json",
+            "displayonbar": false,
+            "title": "Teleport",
+            "pages": {}
+          },
+          "recoverable": {
+            "path": "tombs/config/recoverable.json",
+            "displayonbar": false,
+            "title": "Recoverable",
+            "pages": {}
+          },
+          "respawnfallprevention": {
+            "path": "tombs/config/respawnfallprevention.json",
+            "displayonbar": false,
+            "title": "Respawn Fall Prevention",
+            "pages": {}
+          },
+          "customdeathmessages": {
+            "path": "tombs/config/customdeathmessages.json",
+            "displayonbar": false,
+            "title": "Custom Death Messages",
+            "pages": {}
+          },
+          "interfaces": {
+            "path": "tombs/config/interfaces.json",
+            "displayonbar": false,
+            "title": "Interfaces",
+            "pages": {}
+          },
+          "messages": {
+            "path": "tombs/config/messages.json",
+            "displayonbar": false,
+            "title": "Messages",
+            "pages": {}
+          },
+          "debug": {
+            "path": "tombs/config/debug.json",
+            "displayonbar": false,
+            "title": "Debug",
+            "pages": {}
+          },
+          "hooks": {
+            "path": "tombs/config/hooks.json",
+            "displayonbar": false,
+            "title": "Hooks",
+            "pages": {}
+          },
+          "modelgraves": {
+            "path": "tombs/config/modelgraves.json",
+            "displayonbar": false,
+            "title": "Model Graves",
+            "pages": {}
+          }
+        }
+      },
+      "commands": {
+        "path": "tombs/commands/commands.json",
+        "displayonbar": true,
+        "title": "Commands",
+        "pages": {}
+      },
+      "modelgraves": {
+        "path": "tombs/modelgraves/modelgraves.json",
+        "displayonbar": true,
+        "title": "Model Graves",
+        "pages": {
+          "configurationworlds": {
+            "path": "tombs/modelgraves/configurationworlds.json",
+            "displayonbar": false,
+            "title": "ConfigurationWorlds",
+            "pages": {}
+          },
+          "simplegrave": {
+            "path": "tombs/modelgraves/simplegrave.json",
+            "displayonbar": false,
+            "title": "Simple Grave",
+            "pages": {}
+          },
+          "gravewithname": {
+            "path": "tombs/modelgraves/gravewithname.json",
+            "displayonbar": false,
+            "title": "Grave With Name",
+            "pages": {}
+          },
+          "gravewithhead": {
+            "path": "tombs/modelgraves/gravewithhead.json",
+            "displayonbar": false,
+            "title": "Grave With Head",
+            "pages": {}
+          },
+          "gravewithzombie": {
+            "path": "tombs/modelgraves/gravewithzombie.json",
+            "displayonbar": false,
+            "title": "Grave With Zombie",
+            "pages": {}
+          },
+          "gravewithzombieandhead": {
+            "path": "tombs/modelgraves/gravewithzombieandhead.json",
+            "displayonbar": false,
+            "title": "Grave With Zombie And Head",
+            "pages": {}
+          },
+          "gravewithbats": {
+            "path": "tombs/modelgraves/gravewithbats.json",
+            "displayonbar": false,
+            "title": "Grave With Bats",
+            "pages": {}
+          }
+        }
+      },
       "api": {
         "path": "tombs/api/api.json",
         "displayonbar": true,
